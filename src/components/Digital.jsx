@@ -5,8 +5,8 @@ import '../style/digital.css';
 const Digital = ({ currentTime }) => {
   return (
     <>
-      <div className='Clock'>
-        <h3 id='time'>{currentTime.toLocaleTimeString()}</h3>
+      <div className='clock'>
+        <h3 data-testid='timeValue'>{currentTime.toLocaleTimeString()}</h3>
       </div>
     </>
   );

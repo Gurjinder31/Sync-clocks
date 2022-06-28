@@ -93,7 +93,6 @@ const App = () => {
           type='time'
           min='09:00'
           max='18:00'
-          required
         />
         <button onClick={UpdateTime} type='submit'>
           Submit
